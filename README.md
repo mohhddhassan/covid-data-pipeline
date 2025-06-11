@@ -50,10 +50,11 @@ If you're learning data engineering and wondering how to wire up Airflow + Docke
 
 ## 🔧 What's Next?
 
-- Add deduplication logic to avoid inserting same data daily
-- Maybe build a small Streamlit dashboard (still thinking 😄)
-- Play with sensors and templates in Airflow
-
+* Add deduplication logic to avoid inserting same data daily
+* Maybe build a small Streamlit dashboard (still thinking 😄)
+* Play with sensors and templates in Airflow
+* **Extend the pipeline with ClickHouse** to explore OLAP-style analytics ⚡
+* 
 ---
 
 ## 🙌 Thanks To
