@@ -39,14 +39,6 @@ If you're learning data engineering and wondering how to wire up Airflow + Docke
 
 ---
 
-## 📸 Screenshots
-
-| Airflow DAG | PostgreSQL Output | Logs |
-|-------------|-------------------|------|
-| ![DAG](./screenshots/dag_running.png) | ![Postgres](./screenshots/data_in_postgres.png) | ![Logs](./screenshots/logs_sample.png) |
-
----
-
 ## 🧠 Key Takeaways
 
 - How to schedule Python jobs using Airflow
