@@ -5,9 +5,9 @@ from datetime import timedelta
 import sys
 import logging
 
-# Add the scripts directory to the path so we can import the custom function
+# Adding the scripts directory to the path so we can import the custom function
 sys.path.append('/opt/airflow/scripts')
-from fetch_and_store import fetch_and_store_covid_data  # Your main function
+from fetch_and_store import fetch_and_store_covid_data  # main function
 
 # Define default arguments for the DAG
 default_args = {
@@ -16,7 +16,7 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
-# Define the DAG
+# Defining the DAG
 with DAG(
     dag_id='covid_data_pipeline',
     default_args=default_args,
