@@ -205,4 +205,4 @@ volumes:
 # To start the services, run:
 # docker-compose up airflow-init && docker-compose up --build
 # Access Airflow UI at: http://localhost:8080
-# Username: put your user name here, Password: put your password here.
+# Username: airflow, Password: airflow (or override in .env)
