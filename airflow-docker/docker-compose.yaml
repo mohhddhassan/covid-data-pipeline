@@ -18,10 +18,9 @@
 # Project: COVID-19 Data Pipeline
 # Description: Airflow + Docker + PostgreSQL mini-project for fetching and storing COVID-19 data using a DAG.
 # Author: Mohamed Hussain S
-# GitHub: https://github.com/<your-username>/covid19-data-pipeline
+# GitHub: https://github.com/mohhddhassan/covid19-data-pipeline
 
-version: '3.8'
-
+version: '2.9.1'
 x-airflow-common:
   &airflow-common
   image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.9.1}
@@ -206,4 +205,4 @@ volumes:
 # To start the services, run:
 # docker-compose up airflow-init && docker-compose up --build
 # Access Airflow UI at: http://localhost:8080
-# Username: airflow, Password: airflow
+# Username: put your user name here, Password: put your password here.
